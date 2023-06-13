@@ -1,19 +1,17 @@
 <?php
+namespace AmphiBee\LaravelCoconut\Events;
 
-namespace Nidhalkratos\LaravelCoconut\Events;
-
-
-use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Queue\SerializesModels;
 
 class CoconutNotificationReceived
 {
     use Dispatchable, SerializesModels;
 
     public $videoId;
-    public Array $params;
+    public array $params;
 
-    public function __construct($videoId, Array $params)
+    public function __construct($videoId, array $params)
     {
         $this->videoId = $videoId;
         $this->params = $params;

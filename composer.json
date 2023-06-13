@@ -1,14 +1,20 @@
 {
-    "name": "nidhalkratos/laravel-coconut-v2",
+    "name": "amphibee/laravel-coconut",
     "description": "A Wrapper around coconut transcoding library for laravel",
     "keywords": [
+        "amphibee",
         "nidhalkratos",
-        "laravel-coconut-v2"
+        "laravel-coconut"
     ],
     "homepage": "https://github.com/nidhalkratos/laravel-coconut-v2",
     "license": "MIT",
     "type": "library",
     "authors": [
+        {
+            "name": "AmphiBee",
+            "email": "dev@amphibee.fr",
+            "role": "Developer"
+        },
         {
             "name": "Nidhal Abidi",
             "email": "nidhalkratos@gmail.com",
@@ -16,22 +22,22 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0",
+        "php": "^8.1|^8.2",
+        "illuminate/support": "^10.0",
         "opencoconut/coconut": "^3.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Nidhalkratos\\LaravelCoconut\\": "src"
+            "AmphiBee\\LaravelCoconut\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nidhalkratos\\LaravelCoconut\\Tests\\": "tests"
+            "AmphiBee\\LaravelCoconut\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nidhalkratos\\LaravelCoconut\\CoconutProvider"
+                "AmphiBee\\LaravelCoconut\\CoconutProvider"
             ]
         }
     }

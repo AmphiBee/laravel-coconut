@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Coconut
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nidhalkratos/laravel-coconut-v2.svg?style=flat-square)](https://packagist.org/packages/nidhalkratos/laravel-coconut-v2)
 [![Total Downloads](https://img.shields.io/packagist/dt/nidhalkratos/laravel-coconut-v2.svg?style=flat-square)](https://packagist.org/packages/nidhalkratos/laravel-coconut-v2)
@@ -11,7 +11,7 @@ Check the official php library at `https://github.com/opencoconut/coconutphp` fo
 You can install the package via composer:
 
 ```bash
-composer require nidhalkratos/laravel-coconut-v2
+composer require amphibee/laravel-coconut
 ```
 
 ## Usage
@@ -60,15 +60,7 @@ composer test
 
 ### Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email nidhalkratos@gmail.com instead of using the issue tracker.
+- `v1.0` Laravel 10 compatibility
 
 ## Credits
 
@@ -78,7 +70,3 @@ If you discover any security related issues, please email nidhalkratos@gmail.com
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
