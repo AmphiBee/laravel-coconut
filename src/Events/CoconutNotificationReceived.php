@@ -1,12 +1,11 @@
 <?php
 namespace AmphiBee\LaravelCoconut\Events;
 
-use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
 class CoconutNotificationReceived
 {
-    use Dispatchable, SerializesModels;
+    use SerializesModels;
 
     public $videoId;
     public array $params;

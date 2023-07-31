@@ -36,8 +36,20 @@ return [
                 'secret_access_key' => env('COCONUT_S3_SECRET', null)
             ],
             'path' => '/'
-        ]
+        ],
 
+        /**
+         * FTP storage https://docs.coconut.co/jobs/storage#ftp,-sftp-and-http-protocols
+         */
+
+        'ftp' => [
+            'public_host' => env('COCONUT_STORAGE_PUBLIC_HOST', null),
+            'url' => env('COCONUT_FTP_STORAGE_URL', null),
+        ],
+
+        'coconut' => [
+            'service' => 'coconut'
+        ]
     ],
 
     /**

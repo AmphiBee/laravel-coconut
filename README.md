@@ -24,6 +24,14 @@ COCONUT_GCS_KEY=
 COCONUT_GCS_SECRET=
 ```
 
+or these one if you use FTP
+```bash
+# .env
+COCONUT_STORAGE_PUBLIC_HOST=
+COCONUT_FTP_STORAGE_URL=
+```
+
+
 The package will fire an event whenever a coconut sends a notification
 and thus you need to create a listeners for the event to fire whenever the event is fired
 Coconut will send webhook events to the route named coconut.callback (Created by the package)
@@ -61,6 +69,7 @@ composer test
 ### Changelog
 
 - `v1.0` Laravel 10 compatibility
+- `v1.0.1` Added ftp and coconut storage, update route event
 
 ## Credits
 
